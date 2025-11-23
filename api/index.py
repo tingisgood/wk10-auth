@@ -5,7 +5,7 @@ from pydantic import BaseModel
 from typing import Optional, List
 from uuid import uuid4
 import os, logging
-from secure import router as secure_router #new
+from .secure import router as secure_router #new
 
 
 
