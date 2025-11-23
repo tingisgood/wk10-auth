@@ -61,7 +61,7 @@ const Login = () => {
 
       
     // --------- Step 2: 呼叫 Secured API ---------
-    const response = await fetch("https://work10-auth.onrender.com/secure/profile", {
+    const response = await fetch("https://wk10-auth.onrender.com/secure/profile", {
       method: "GET",
       headers: {
         "Authorization": `Bearer ${token}`, // 帶上 JWT
