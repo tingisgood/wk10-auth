@@ -21,8 +21,8 @@ app.add_middleware(
     allow_origins=[
         "https://work2-phi.vercel.app",  # 你的前端正式網域（Vercel）
         "http://localhost:5173",         # 本機開發
-        "https://wk10-auth.onrender.com" #感覺要加一下render網址
-        "https://wk10-auth.vercel.app/login" #新的vercel網址喔耶
+        "https://wk10-auth.onrender.com", #感覺要加一下render網址
+        "https://wk10-auth.vercel.app" #新的vercel網址喔耶
     ],
     allow_credentials=True,
     # 預檢會用到 OPTIONS，這裡一定要允許
